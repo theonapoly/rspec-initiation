@@ -1,9 +1,7 @@
-def the_hello_function(says_hello)
+def hello
     return "Hello!"
 end
-  
-def the_greet_function(name)
-    return "Hello, #{name} !"
-end
 
- 
+def greet(name)
+    return "#{hello.chop}, #{name}!"
+end
